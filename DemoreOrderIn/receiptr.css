@@ -1,0 +1,162 @@
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 10px;
+    text-align: left;
+    background: white;
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+ .topnav a {
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  width: 23.33%
+}
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.pageCenter {
+	background-color:white;
+	margin-top: 50px;
+    margin-left: 400px;
+    padding-bottom: 50px;
+	max-width: 800px;
+	position: relative;
+	border-collapse: collapse;
+}
+
+h2{
+	text-align: center;
+	padding-top:20px;
+	font-family: Comic Sans MS;
+    font-weight: bold;
+}
+
+
+.top-right{
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.top-left{
+    float: left;
+    padding-left: 30px;
+}
+
+
+h3{
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+input[name=receipt] {
+    width: 75%;
+    height: 25%;
+    padding: 15px;
+    margin: 5px 5px 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    padding-left: 30px;
+    padding-bottom: 50px;
+  }
+
+  .form{
+      padding-left: 70px;
+  }
+
+  .itemlist{
+      padding-left: 350px;
+  }
+
+  .custinfo{
+      padding-left: 30px;
+  }
+  
+
+  .clbt{
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 500px;
+	  
+      background-color:darkgray;
+
+  }
+
+  .prt{
+      margin-left: 400px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color:darkgrey;
+  }
+
+  .row{
+      padding-left: 30px;
+      font-weight: bold;
+  }
+
+  .section {
+    background-color: white;
+   margin: auto;
+   margin-bottom: 10px;
+  width: 80%;
+  
+  padding: 10px;
+  }
+  
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+      * { font: 18px Calibri; }
+      
+      
+ .footer {
+  background: black;
+  color: white;
+  width:100%;
+  bottom:0;
+  padding: 2px;
+  text-align: center;
+  margin-top: 10px;
+}
+      
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+          width: 100%;
+          padding: 0;
+        }
+      }
+      
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }

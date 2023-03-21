@@ -1,0 +1,77 @@
+
+body{
+
+
+  background-image: url("bakery.jpg");
+  height: 100%;
+}
+
+
+
+.myHeader {
+ background-color: 	#f0d1a0;
+ max-width: 3000px;
+ height: 150px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ opacity: 0.6;
+}
+
+
+
+img {
+   border: 5px solid #555;
+   width: 120px;
+   height: 130px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 3.5; 
+}
+
+
+
+#welcome {
+	font-family:font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+
+
+#fot {
+	color:white;
+	font-size:20px;
+	position:absolute;
+    bottom:0;
+    width:100%;
+    height:10px;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+.MainText{
+	
+	color:  #FFFF00;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+#btn {
+  background-color:#FFDF00;
+  border: none;
+  color: black;
+  padding: 10px 16px;
+  width : 100px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+#btn :hover {
+  background-color: #b29700;
+}
